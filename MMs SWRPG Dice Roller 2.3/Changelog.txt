@@ -39,3 +39,16 @@
 	- statistics data is now unloaded by default to speed up startup
 	- discord moved into a new submenu - feature still not implemented
 	- added a readme to explain functionality
+
+2.2a - 09.03.23
+	- updated about page with donation, readme and changelog buttons
+	- fixed minor button alignment isssues
+	- discord community release
+
+2.3 - 11.03.23
+	- fixed an issue where deleting a category in the dice pool manager did not delete its dice pools
+	- fixed a bug where new dice pool categories would be created with symbols in it
+	- fixed rounding error for pools that showed "0.001%" success Chance where they should have shown "0%"
+	- sped up stat data loading times by 60-70%
+	- added a large number of additional dice pool symbols (vehicles, weapons and skills)
+	- github release
