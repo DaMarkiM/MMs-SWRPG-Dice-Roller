@@ -1,0 +1,57 @@
+1.0 - 26.02.23
+	- initial release as "SWRPG Dice Roller"
+
+1.1 - 26.02.23
+	- triumph/despair symbols now show in the success/failure column
+	- triumph and despair no longer cancel each other
+	- fixed issue when showing more than 10 result symbols
+	- marker for additional result symbols now shows whether additional symbols are cancelled out
+	- changed name to "MMs SWRPG Dice Roller"
+
+1.2 - 27.02.23
+	- fixed bug with overflowing result symbols
+	- added submenus for: setup, discord, force die, statistics, history, about
+	- added roll history feature
+	- added setup feature: clear pool after each roll
+	- added force die feature
+
+1.3 - 28.02.23
+	- added statistics feature
+	- added history feature
+
+2.0 - 05.03.23
+	- software completely rewritten from scratch
+	- significant performance increase for big dice pools and statistics
+	- added support for smaller dice symbols (showing pools of up to 30)
+	- added support to display side number for each die
+	- added about page
+	- added option to completely dump statistics data to free up memory and increase performance
+	- added success chance display
+
+2.1 - 07.03.23
+	- update of the statistics data to new data structure
+	- now supports dice statistics for pools of up to 30 dice
+	- significant speedup of lookup times/decrease in button "stickiness"
+	- as a result startup time has been slightly increased however
+
+2.2 - 09.03.23
+	- added new dicepool feature
+	- statistics data is now unloaded by default to speed up startup
+	- discord moved into a new submenu - feature still not implemented
+	- added a readme to explain functionality
+
+2.2a - 09.03.23
+	- updated about page with donation, readme and changelog buttons
+	- fixed minor button alignment isssues
+	- discord community release
+
+2.3 - 11.03.23
+	- fixed an issue where deleting a category in the dice pool manager did not delete its dice pools
+	- fixed a bug where new dice pool categories would be created with symbols in it
+	- fixed rounding error for pools that showed "0.001%" success Chance where they should have shown "0%"
+	- sped up stat data loading times by 60-70%
+	- added a large number of additional dice pool symbols (vehicles, weapons and skills)
+	- github release
+
+2.3a - 20.03.23
+	- fixed bug that prevented writing/loading userdata file for dice pools
